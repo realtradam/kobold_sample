@@ -1,0 +1,12 @@
+[kobold_config]
+format_version = 0.1.0
+
+[raysan5/raylib]
+source = https://github.com
+commit = 'd3ea64983212f7451a9cfbf644da8a5c43dbc706'
+dir = ./
+
+[raysan5/raygui]
+source = https://github.com
+commit = '3d20f06bf29cc764afdc40ad773031e57030fe34'
+dir = ./
