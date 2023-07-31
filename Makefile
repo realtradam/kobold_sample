@@ -3,7 +3,10 @@
 
 all: build run
 
-raylib:
+kobold:
+	kobold
+
+raylib: kobold
 	(cd raylib/src; make)
 
 build: raylib
